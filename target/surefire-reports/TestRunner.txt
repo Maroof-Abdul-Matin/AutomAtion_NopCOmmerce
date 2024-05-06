@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 660.2 s <<< FAILURE! -- in TestRunner
+Nopcommerce registration feature Test.User should be able to registration new account successfully #1 -- Time elapsed: 100.6 s <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+
+Nopcommerce registration feature Test.User should be able to registration new account successfully #2 -- Time elapsed: 102.6 s <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+
+Nopcommerce registration feature Test.User should be able to registration new account successfully #3 -- Time elapsed: 101.2 s <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+
+Nopcommerce registration feature Test.User should be able to registration new account successfully #4 -- Time elapsed: 100.9 s <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+
+Nopcommerce registration feature Test.User should be able to registration new account successfully #5 -- Time elapsed: 104.8 s <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+

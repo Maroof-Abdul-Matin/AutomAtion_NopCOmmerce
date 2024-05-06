@@ -1,0 +1,12 @@
+pages\ProductPage.class
+StepDefinitions\RegistrationStepDefinitions.class
+pages\CartPage.class
+pages\RegistrationCompletePage.class
+StepDefinitions\PlaceOrderStepDefinitions.class
+Setup\Setup.class
+pages\CategoryPage.class
+pages\CheckoutPage.class
+pages\RegistrationPage.class
+pages\BillingPage.class
+pages\LandingPage.class
+TestRunner.class

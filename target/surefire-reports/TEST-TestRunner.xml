@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="660.167" tests="6" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Automation\AutomAtion_NopCOmmerce\target\test-classes;E:\Automation\AutomAtion_NopCOmmerce\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.0\selenium-java-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.0\selenium-api-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.0\selenium-chrome-driver-4.5.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.0\selenium-chromium-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.0\selenium-json-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.0\selenium-devtools-v104-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.0\selenium-devtools-v105-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.0\selenium-devtools-v106-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.0\selenium-devtools-v85-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.0\selenium-edge-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.0\selenium-firefox-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.0\selenium-ie-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.0\selenium-remote-driver-4.5.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\io\netty\netty-buffer\4.1.79.Final\netty-buffer-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec\4.1.79.Final\netty-codec-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler\4.1.79.Final\netty-handler-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-common\4.1.79.Final\netty-common-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.79.Final\netty-transport-classes-epoll-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.79.Final\netty-transport-classes-kqueue-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.79.Final\netty-transport-native-epoll-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.79.Final\netty-transport-native-kqueue-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport\4.1.79.Final\netty-transport-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-resolver\4.1.79.Final\netty-resolver-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.17.0\opentelemetry-api-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.17.0\opentelemetry-context-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.17.0\opentelemetry-exporter-logging-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.17.0\opentelemetry-sdk-metrics-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.17.0-alpha\opentelemetry-sdk-logs-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.17.0\opentelemetry-sdk-common-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.17.0\opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.17.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.17.0\opentelemetry-exporter-common-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.17.0\opentelemetry-sdk-trace-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.17.0\opentelemetry-sdk-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.17.0-alpha\opentelemetry-semconv-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\HP\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.0\selenium-http-4.5.0.jar;C:\Users\HP\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.0\selenium-safari-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.0\selenium-support-4.5.0.jar;C:\Users\HP\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\HP\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\HP\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\HP\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\HP\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\HP\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.5.0\cucumber-java-7.5.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire31878064862998858\surefirebooter-20240506112038352_3.jar C:\Users\HP\AppData\Local\Temp\surefire31878064862998858 2024-05-06T11-20-37_991-jvmRun1 surefire-20240506112038352_1tmp surefire_0-20240506112038352_2tmp"/>
+    <property name="surefire.test.class.path" value="E:\Automation\AutomAtion_NopCOmmerce\target\test-classes;E:\Automation\AutomAtion_NopCOmmerce\target\classes;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-java\4.5.0\selenium-java-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-api\4.5.0\selenium-api-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.5.0\selenium-chrome-driver-4.5.0.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\HP\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\HP\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\HP\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\HP\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HP\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\HP\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\HP\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.5.0\selenium-chromium-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-json\4.5.0\selenium-json-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v104\4.5.0\selenium-devtools-v104-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v105\4.5.0\selenium-devtools-v105-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v106\4.5.0\selenium-devtools-v106-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.5.0\selenium-devtools-v85-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.5.0\selenium-edge-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.5.0\selenium-firefox-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.5.0\selenium-ie-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.5.0\selenium-remote-driver-4.5.0.jar;C:\Users\HP\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\HP\.m2\repository\io\netty\netty-buffer\4.1.79.Final\netty-buffer-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec\4.1.79.Final\netty-codec-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler\4.1.79.Final\netty-handler-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-common\4.1.79.Final\netty-common-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.79.Final\netty-transport-classes-epoll-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.79.Final\netty-transport-classes-kqueue-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.79.Final\netty-transport-native-epoll-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.79.Final\netty-transport-native-kqueue-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport\4.1.79.Final\netty-transport-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-resolver\4.1.79.Final\netty-resolver-4.1.79.Final.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-api\1.17.0\opentelemetry-api-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-context\1.17.0\opentelemetry-context-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.17.0\opentelemetry-exporter-logging-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.17.0\opentelemetry-sdk-metrics-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.17.0-alpha\opentelemetry-sdk-logs-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.17.0\opentelemetry-sdk-common-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.17.0\opentelemetry-sdk-extension-autoconfigure-spi-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.17.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-exporter-common\1.17.0\opentelemetry-exporter-common-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.17.0\opentelemetry-sdk-trace-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.17.0\opentelemetry-sdk-1.17.0.jar;C:\Users\HP\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.17.0-alpha\opentelemetry-semconv-1.17.0-alpha.jar;C:\Users\HP\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\HP\.m2\repository\net\bytebuddy\byte-buddy\1.12.14\byte-buddy-1.12.14.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\HP\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\HP\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\HP\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\HP\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\HP\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\HP\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-http\4.5.0\selenium-http-4.5.0.jar;C:\Users\HP\.m2\repository\dev\failsafe\failsafe\3.2.4\failsafe-3.2.4.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.5.0\selenium-safari-driver-4.5.0.jar;C:\Users\HP\.m2\repository\org\seleniumhq\selenium\selenium-support\4.5.0\selenium-support-4.5.0.jar;C:\Users\HP\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\HP\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\HP\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\HP\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\HP\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\HP\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\HP\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\HP\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\HP\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\HP\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\HP\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\HP\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\HP\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\HP\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit\7.8.1\cucumber-junit-7.8.1.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.5.0\cucumber-java-7.5.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="E:\Automation\AutomAtion_NopCOmmerce"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire31878064862998858\surefirebooter-20240506112038352_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="HP"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="E:\Automation\AutomAtion_NopCOmmerce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python312\;C:\Users\HP\AppData\Local\Programs\Python\Launcher\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="User should be able to successfully place order as a guest user" classname="Nopcommerce place order feature Test" time="147.331">
+    <system-out><![CDATA[
+@placeOrder @test-2
+Scenario: User should be able to successfully place order as a guest user                             &amp#27;[90m# placeOrder.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page for test 2&amp#27;[0m                                               &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click "Cell phones" option from "Electronics" category&amp#27;[0m                                    &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_click_Cell_phones_option_from_Electronics_category()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the "Nokia Lumia 1020" for product details&amp#27;[0m                                        &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_click_on_the_Nokia_Lumia_1020_for_product_details()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set the quantity number 2 in the quantity field&amp#27;[0m                                            &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_set_the_quantity_number_2_in_the_quantity_field()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the "ADD TO CART" button&amp#27;[0m                                                          &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.User_click_on_the_ADD_TO_CART_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the shipping cart page&amp#27;[0m                                                               &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.User_go_to_the_shipping_cart_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser accept terms conditions and click checkout button&amp#27;[0m                                          &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_accept_terms_conditions_and_click_checkout_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click checkout as guest button&amp#27;[0m                                                             &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_click_checkout_as_guest_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser input all the billing details and click continue&amp#27;[0m                                           &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.user_input_all_the_billing_details_and_click_continue()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select shipping method "Next Day Air" and click continue&amp#27;[0m                                   &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.select_next_day_air_and_click_continue()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select payment method "Credit Card" and click continue&amp#27;[0m                                     &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.select_credit_card_and_click_continue()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser select "Visa" card and input card information&amp#27;[0m                                              &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.select_visa_and_input_card_information()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click confirm button to place the order&amp#27;[0m                                                    &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.click_confirm_button_to_place_order()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mVerify that the order place message "Your order has been successfully processed!" is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.PlaceOrderStepDefinitions.verify_that_the_order_has_been_successfully_processed()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1714972842379	geckodriver	INFO	Listening on 127.0.0.1:54142
+1714972843543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63286" "--remote ... ://localhost:63286/,http://[::1]:63286/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileQRG7g3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714972844048	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714972844158	Marionette	INFO	Listening on port 57341
+WebDriver BiDi listening on ws://127.0.0.1:63286
+Read port: 57341
+1714972844502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63286/devtools/browser/6029e9ef-e926-412f-91e7-f428cc3df3d3
+May 06, 2024 11:20:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1714972874092	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to registration new account successfully #1" classname="Nopcommerce registration feature Test" time="100.639">
+    <failure message="expected:&lt;null&gt; but was:&lt;Your registration completed&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+@registration @test-1
+Scenario Outline: User should be able to registration new account successfully                     &amp#27;[90m# registration.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser navigate to the Registration page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicked_the_registration_link()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Male"&amp#27;[0m&amp#27;[32m as gender&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_selects_the_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set first name and last name&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_first_name_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"20/05/1995"&amp#27;[0m&amp#27;[32m as date of birth&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_date_of_birth(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m as email&amp#27;[0m                                                                         &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brainstation-23"&amp#27;[0m&amp#27;[32m as company details&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_company_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set Newsletter option as &amp#27;[0m&amp#27;[32m&amp#27;[1m"checked"&amp#27;[0m                                                      &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_newsletter_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass@1234"&amp#27;[0m&amp#27;[32m as password and confirm password again&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_password_and_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the Register button&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicks_the_register_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify that the new account registration message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[31m is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at âœ½.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1714972989022	geckodriver	INFO	Listening on 127.0.0.1:56294
+1714972989495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51284" "--remote ... ://localhost:51284/,http://[::1]:51284/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilek0PzJW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714972989827	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714972989899	Marionette	INFO	Listening on port 57479
+WebDriver BiDi listening on ws://127.0.0.1:51284
+Read port: 57479
+1714972990085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51284/devtools/browser/2cfa8986-9747-4e78-a66b-cac226dae863
+May 06, 2024 11:23:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1714973019863	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to registration new account successfully #2" classname="Nopcommerce registration feature Test" time="102.628">
+    <failure message="expected:&lt;null&gt; but was:&lt;Your registration completed&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+@registration @test-1
+Scenario Outline: User should be able to registration new account successfully                     &amp#27;[90m# registration.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser navigate to the Registration page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicked_the_registration_link()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Female"&amp#27;[0m&amp#27;[32m as gender&amp#27;[0m                                                          &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_selects_the_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set first name and last name&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_first_name_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"9/05/1999"&amp#27;[0m&amp#27;[32m as date of birth&amp#27;[0m                                                        &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_date_of_birth(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m as email&amp#27;[0m                                                                         &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brainstation-23"&amp#27;[0m&amp#27;[32m as company details&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_company_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set Newsletter option as &amp#27;[0m&amp#27;[32m&amp#27;[1m"unchecked"&amp#27;[0m                                                    &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_newsletter_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass@1234"&amp#27;[0m&amp#27;[32m as password and confirm password again&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_password_and_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the Register button&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicks_the_register_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify that the new account registration message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[31m is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at âœ½.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1714973089610	geckodriver	INFO	Listening on 127.0.0.1:60890
+1714973090103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51312" "--remote ... ://localhost:51312/,http://[::1]:51312/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileQkILGv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714973090629	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714973090707	Marionette	INFO	Listening on port 57619
+WebDriver BiDi listening on ws://127.0.0.1:51312
+Read port: 57619
+1714973090962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51312/devtools/browser/a20c5c0e-3e1f-41cc-b1da-6538ce625d98
+May 06, 2024 11:24:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1714973120702	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to registration new account successfully #3" classname="Nopcommerce registration feature Test" time="101.168">
+    <failure message="expected:&lt;null&gt; but was:&lt;Your registration completed&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+@registration @test-1
+Scenario Outline: User should be able to registration new account successfully                     &amp#27;[90m# registration.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser navigate to the Registration page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicked_the_registration_link()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Female"&amp#27;[0m&amp#27;[32m as gender&amp#27;[0m                                                          &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_selects_the_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set first name and last name&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_first_name_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"3/05/2000"&amp#27;[0m&amp#27;[32m as date of birth&amp#27;[0m                                                        &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_date_of_birth(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m as email&amp#27;[0m                                                                         &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brainstation-23"&amp#27;[0m&amp#27;[32m as company details&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_company_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set Newsletter option as &amp#27;[0m&amp#27;[32m&amp#27;[1m"unchecked"&amp#27;[0m                                                    &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_newsletter_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass@1234"&amp#27;[0m&amp#27;[32m as password and confirm password again&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_password_and_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the Register button&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicks_the_register_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify that the new account registration message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[31m is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at âœ½.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1714973192243	geckodriver	INFO	Listening on 127.0.0.1:59290
+1714973192746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63440" "--remote ... ://localhost:63440/,http://[::1]:63440/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilepwIX3S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714973193279	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714973193370	Marionette	INFO	Listening on port 57682
+WebDriver BiDi listening on ws://127.0.0.1:63440
+Read port: 57682
+1714973193655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63440/devtools/browser/5a2eb649-99fe-4143-90e7-c2721a08e1a8
+May 06, 2024 11:26:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1714973223350	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to registration new account successfully #4" classname="Nopcommerce registration feature Test" time="100.927">
+    <failure message="expected:&lt;null&gt; but was:&lt;Your registration completed&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+@registration @test-1
+Scenario Outline: User should be able to registration new account successfully                     &amp#27;[90m# registration.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser navigate to the Registration page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicked_the_registration_link()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Male"&amp#27;[0m&amp#27;[32m as gender&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_selects_the_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set first name and last name&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_first_name_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"2/05/2001"&amp#27;[0m&amp#27;[32m as date of birth&amp#27;[0m                                                        &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_date_of_birth(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m as email&amp#27;[0m                                                                         &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brainstation-23"&amp#27;[0m&amp#27;[32m as company details&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_company_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set Newsletter option as &amp#27;[0m&amp#27;[32m&amp#27;[1m"checked"&amp#27;[0m                                                      &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_newsletter_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass@1234"&amp#27;[0m&amp#27;[32m as password and confirm password again&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_password_and_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the Register button&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicks_the_register_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify that the new account registration message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[31m is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at âœ½.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1714973293482	geckodriver	INFO	Listening on 127.0.0.1:60902
+1714973293965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65007" "--remote ... ://localhost:65007/,http://[::1]:65007/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilemFREyt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714973294403	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714973294496	Marionette	INFO	Listening on port 57753
+WebDriver BiDi listening on ws://127.0.0.1:65007
+Read port: 57753
+1714973294765	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65007/devtools/browser/272c876b-398e-4d5b-9296-723a2c7c7de4
+May 06, 2024 11:28:16 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+JavaScript error: https://demo.nopcommerce.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js?v=2zrdcEASzxCV351S7RU4ZQt8wRA, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: AjaxCart is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+JavaScript error: https://demo.nopcommerce.com/ line 1 > injectedScript, line 1: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1714973324497	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+]]></system-err>
+  </testcase>
+  <testcase name="User should be able to registration new account successfully #5" classname="Nopcommerce registration feature Test" time="104.789">
+    <failure message="expected:&lt;null&gt; but was:&lt;Your registration completed&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at ✽.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+]]></failure>
+    <system-out><![CDATA[
+@registration @test-1
+Scenario Outline: User should be able to registration new account successfully                     &amp#27;[90m# registration.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser go to the NopCommerce Home page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_visited_the_portal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser navigate to the Registration page&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicked_the_registration_link()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Female"&amp#27;[0m&amp#27;[32m as gender&amp#27;[0m                                                          &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_selects_the_gender(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set first name and last name&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_first_name_and_last_name()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"10/05/1990"&amp#27;[0m&amp#27;[32m as date of birth&amp#27;[0m                                                       &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_date_of_birth(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m as email&amp#27;[0m                                                                         &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_email(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brainstation-23"&amp#27;[0m&amp#27;[32m as company details&amp#27;[0m                                                &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_company_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set Newsletter option as &amp#27;[0m&amp#27;[32m&amp#27;[1m"unchecked"&amp#27;[0m                                                    &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_newsletter_option(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser set &amp#27;[0m&amp#27;[32m&amp#27;[1m"pass@1234"&amp#27;[0m&amp#27;[32m as password and confirm password again&amp#27;[0m                                  &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_sets_the_password_and_confirm_password(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser click on the Register button&amp#27;[0m                                                            &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_clicks_the_register_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mVerify that the new account registration message &amp#27;[0m&amp#27;[31m&amp#27;[1m"Your registration completed"&amp#27;[0m&amp#27;[31m is displayed&amp#27;[0m &amp#27;[90m# StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(java.lang.String)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected:<null> but was:<Your registration completed>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at StepDefinitions.RegistrationStepDefinitions.user_verifies_the_registration_message(RegistrationStepDefinitions.java:91)
+	at âœ½.Verify that the new account registration message "Your registration completed" is displayed(classpath:registration.feature:16)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1714973396360	geckodriver	INFO	Listening on 127.0.0.1:49287
+1714973396847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57506" "--remote ... ://localhost:57506/,http://[::1]:57506/" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileCOTU5U"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1714973397369	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1714973397454	Marionette	INFO	Listening on port 57899
+WebDriver BiDi listening on ws://127.0.0.1:57506
+Read port: 57899
+1714973397697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57506/devtools/browser/9a990856-3d45-4bb2-940b-59e3ab195776
+May 06, 2024 11:29:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demo.nopcommerce.com."
+1714973427432	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+]]></system-err>
+  </testcase>
+</testsuite>

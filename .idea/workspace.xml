@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0423fc9-f05c-4bb6-8bee-e85e273495f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Setup/Setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PlaceOrderStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/RegistrationStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BillingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CategoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LandingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationCompletePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/placeOrder.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/registration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2024-05-06T11-20-37_991.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Setup/Setup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PlaceOrderStepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/RegistrationStepDefinitions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/BillingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/CartPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/CategoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/CheckoutPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/LandingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/ProductPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/RegistrationCompletePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/RegistrationPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/placeOrder.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/registration.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Maroof-Abdul-Matin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Maroof-Abdul-Matin/AutomAtion_NopCOmmerce.git",
+    "accountId": "323b9498-5003-4a85-aa8a-344660d0e222"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2g51LwcBapJ2smUNJKCamrlZOw4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Automation/AutomAtion_NopCOmmerce",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0423fc9-f05c-4bb6-8bee-e85e273495f3" name="Changes" comment="" />
+      <created>1714972571272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714972571272</updated>
+      <workItem from="1714972572446" duration="1826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
